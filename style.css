@@ -3,6 +3,7 @@
 }
 
 body{
+    background-image: url(./images/pattern-background-mobile.svg);
     background-color: hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
@@ -112,4 +113,10 @@ div img{
 
 .btn2:hover{
     color: hsl(223, 47%, 23%);
+}
+
+@media  screen and (min-width:376px)  {
+    body{
+        background-image: url(./images/pattern-background-desktop.svg) 
+    }
 }
