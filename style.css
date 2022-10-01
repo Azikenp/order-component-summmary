@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+
+.container{
+    background-color: white;
+    height: 33rem;
+    width: 20rem;
+    border-radius: 20px;
+}
+
+img{
+    width: 20rem;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-content{
+    padding-left:20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    color: hsl(223, 47%, 23%);
+}
+
+.info{
+    padding: 0 15px 0 15px;
+    font-size: 16px ;
+}
+
+.subscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsl(225, 100%, 98%);
+    height: 6rem;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    /* opacity: .6; */
+}
+
+.price{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+a{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: hsl(245, 75%, 52%);
+}
+
+a:hover{
+    opacity: .6;
+}
+
+strong{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+div img{
+    width: 3rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.btn1{
+    display: block;
+    width: 17rem;
+    height: 2.8rem;
+    margin: 20px 0 12px 0;
+    border-radius: 10px;
+    background-color: hsla(245, 75%, 52%, 0.9);
+    border: 1px solid hsla(245, 75%, 52%, 0.9);
+    color: white;
+    font-size: 15px;
+}
+
+.btn1:hover{
+    opacity: .6;
+}
+
+.btn2{
+    display: block;
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn2:hover{
+    color: hsl(223, 47%, 23%);
+}
